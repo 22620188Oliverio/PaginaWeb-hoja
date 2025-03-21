@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explora el Mundo - Viajes Únicos</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-</head>
-<body>
-
-       <!-- Barra de navegación -->
+<template>
+    <div class="container">
+        <!-- Barra de navegación -->
        <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -121,9 +110,5 @@
             </div>
         </div>
     </footer>
-
-    
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    </div>
+</template>
